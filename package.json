@@ -1,5 +1,5 @@
 {
-  "name": "lime-frontend-lint",
+  "name": "@limetech/lime-frontend-lint",
   "version": "0.0.0",
   "description": "Reusable lint rules for use in other packages.",
   "author": "Lime Technologies",
@@ -26,6 +26,9 @@
     "url": "https://github.com/Lundalogik/lime-frontend-lint/issues"
   },
   "homepage": "https://github.com/Lundalogik/lime-frontend-lint#readme",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^6.9.0",
     "@typescript-eslint/parser": "^6.9.0",
