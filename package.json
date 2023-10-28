@@ -1,0 +1,28 @@
+{
+  "name": "lime-frontend-lint",
+  "version": "0.0.0",
+  "description": "Reusable lint rules for use in other packages.",
+  "author": "Lime Technologies",
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lundalogik/lime-frontend-lint.git"
+  },
+  "keywords": [
+    "Lime",
+    "lint",
+    "linting",
+    "linter",
+    "rules",
+    "eslint",
+    "prettier"
+  ],
+  "bugs": {
+    "url": "https://github.com/Lundalogik/lime-frontend-lint/issues"
+  },
+  "homepage": "https://github.com/Lundalogik/lime-frontend-lint#readme"
+}
