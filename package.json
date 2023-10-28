@@ -1,5 +1,5 @@
 {
-  "name": "@limetech/lime-frontend-lint",
+  "name": "@limetech/eslint-config",
   "version": "1.0.0",
   "description": "Reusable lint rules for use in other packages.",
   "author": "Lime Technologies",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Lundalogik/lime-frontend-lint.git"
+    "url": "git+https://github.com/Lundalogik/eslint-config.git"
   },
   "keywords": [
     "Lime",
@@ -23,9 +23,9 @@
     "prettier"
   ],
   "bugs": {
-    "url": "https://github.com/Lundalogik/lime-frontend-lint/issues"
+    "url": "https://github.com/Lundalogik/eslint-config/issues"
   },
-  "homepage": "https://github.com/Lundalogik/lime-frontend-lint#readme",
+  "homepage": "https://github.com/Lundalogik/eslint-config#readme",
   "publishConfig": {
     "access": "public"
   },
