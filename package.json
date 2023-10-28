@@ -6,7 +6,8 @@
   "license": "Apache-2.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint \"**/*.{ts,tsx,js}\" --max-warnings=0 && prettier -c \"{!(package*).json,.prettierrc}\"",
+    "lint:fix": "eslint \"**/*.{ts,tsx,js}\" --fix --max-warnings=0 && prettier --write \"{!(package*).json,.prettierrc}\""
   },
   "repository": {
     "type": "git",
@@ -24,5 +25,18 @@
   "bugs": {
     "url": "https://github.com/Lundalogik/lime-frontend-lint/issues"
   },
-  "homepage": "https://github.com/Lundalogik/lime-frontend-lint#readme"
+  "homepage": "https://github.com/Lundalogik/lime-frontend-lint#readme",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.9.0",
+    "@typescript-eslint/parser": "^6.9.0",
+    "eslint": "^8.52.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-ban": "^1.6.0",
+    "eslint-plugin-jsdoc": "^46.8.2",
+    "eslint-plugin-prefer-arrow": "^1.2.3",
+    "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-sonarjs": "^0.21.0",
+    "prettier": "^3.0.3"
+  }
 }
