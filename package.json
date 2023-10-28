@@ -20,6 +20,7 @@
     "linter",
     "rules",
     "eslint",
+    "eslintconfig",
     "prettier"
   ],
   "bugs": {
