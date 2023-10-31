@@ -1,3 +1,11 @@
+## [2.0.1](https://github.com/Lundalogik/eslint-config/compare/v2.0.0...v2.0.1) (2023-10-31)
+
+
+### Bug Fixes
+
+
+* add postinstall script for copying `.prettierrc` to consumer project ([6481d5f](https://github.com/Lundalogik/eslint-config/commit/6481d5f59c917914ebd06c078dc90ff17bde4501))
+
 # [2.0.0](https://github.com/Lundalogik/eslint-config/compare/v1.0.1...v2.0.0) (2023-10-29)
 
 
