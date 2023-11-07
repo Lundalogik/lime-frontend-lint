@@ -1,3 +1,11 @@
+# [2.1.0-tsdoc.1](https://github.com/Lundalogik/eslint-config/compare/v2.0.1...v2.1.0-tsdoc.1) (2023-11-07)
+
+
+### Features
+
+
+* replace jsdoc with tsdoc ([6cefb03](https://github.com/Lundalogik/eslint-config/commit/6cefb030c4a4554337df1bcf01371a0a1294a005))
+
 ## [2.0.1](https://github.com/Lundalogik/eslint-config/compare/v2.0.0...v2.0.1) (2023-10-31)
 
 
