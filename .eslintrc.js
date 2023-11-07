@@ -9,7 +9,6 @@ module.exports = {
         'plugin:@typescript-eslint/eslint-recommended',
         'plugin:prettier/recommended',
         'plugin:sonarjs/recommended',
-        'plugin:jsdoc/recommended',
     ],
     parser: '@typescript-eslint/parser',
     parserOptions: {
@@ -20,9 +19,9 @@ module.exports = {
         '@typescript-eslint',
         'prettier',
         'sonarjs',
-        'jsdoc',
         'prefer-arrow',
         'ban',
+        'eslint-plugin-tsdoc',
     ],
     settings: {
         react: {
@@ -67,10 +66,6 @@ module.exports = {
         eqeqeq: ['error', 'always'],
         'guard-for-in': 'error',
         'id-match': 'error',
-        'jsdoc/check-indentation': 'error',
-        'jsdoc/require-jsdoc': 'off',
-        'jsdoc/no-undefined-types': 'off',
-        'jsdoc/check-tag-names': 'off',
         'max-classes-per-file': ['error', 1],
         'multiline-ternary': ['error', 'never'],
         'no-bitwise': 'error',
@@ -129,6 +124,7 @@ module.exports = {
                 markers: ['/'],
             },
         ],
+        'tsdoc/syntax': 'warn',
     },
     overrides: [
         {
@@ -176,8 +172,6 @@ module.exports = {
                 '@typescript-eslint/dot-notation': 'error',
                 'sonarjs/no-duplicate-string': 'off',
                 'sonarjs/no-identical-functions': 'off',
-                'jsdoc/require-returns': 'off',
-                'jsdoc/require-param': 'off',
                 'no-console': 'off',
                 'no-magic-numbers': 'off',
                 'prefer-arrow/prefer-arrow-functions': 'off',
