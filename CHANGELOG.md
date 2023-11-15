@@ -1,3 +1,11 @@
+## [2.0.2](https://github.com/Lundalogik/eslint-config/compare/v2.0.1...v2.0.2) (2023-11-15)
+
+
+### Bug Fixes
+
+
+* **.eslintrc.js:** remove some test-related rules that was copied from lime-elements ([6315b4a](https://github.com/Lundalogik/eslint-config/commit/6315b4a3f47c2f2fb8fefe80152409860f6667d6))
+
 ## [2.0.1](https://github.com/Lundalogik/eslint-config/compare/v2.0.0...v2.0.1) (2023-10-31)
 
 
