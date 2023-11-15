@@ -158,20 +158,7 @@ module.exports = {
             },
         },
         {
-            files: [
-                'src/examples/*.{ts,tsx}',
-                'src/components/**/examples/*.{ts,tsx}',
-                'src/components/**/examples/**/*.{ts,tsx}',
-                'src/**/*.spec.{ts,tsx}',
-                'src/**/*.e2e.{ts,tsx}',
-                'src/**/*.test-wrapper.{ts,tsx}',
-            ],
-            parserOptions: {
-                parserOption: {
-                    jsx: true,
-                },
-                project: 'tsconfig.lint.json',
-            },
+            files: ['src/**/*.spec.{ts,tsx}', 'src/**/*.e2e.{ts,tsx}'],
             rules: {
                 '@typescript-eslint/dot-notation': 'error',
                 'sonarjs/no-duplicate-string': 'off',
